@@ -3,9 +3,9 @@
     src: url(images/style/font-champ-bold.ttf) format('truetype');
     font-display: swap
 }
-body {
+/* body {
     background-color: "";
-}
+} */
 :root {
     --txtClr: #333;
     --bgClr: hsl(0, 0%, 100%);
