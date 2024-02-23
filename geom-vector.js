@@ -23,7 +23,7 @@ s+='<div id="btns2" style="position:absolute; right:3px; bottom:3px;">'
 s+='<button id="coordsBtn" onclick="toggleCoords()" style="z-index:2;" class="btn lo" >Coords</button>'
 s+='<button id="resetBtn" onclick="reset()" style="z-index:2;" class="btn" >Reset</button>'
 s+='</div>'
-s+='<div><strong>Recreated by Harish.V</strong></div>'
+s+='<div><strong>Recreated by V.Harish</strong></div>'
 
 // s+=wrap({cls:'copyrt',pos:'abs',style:'left:5px; bottom:3px'},'&copy; 2023 Rod Pierce v'+version)
 s+='</div>'
