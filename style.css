@@ -4,7 +4,7 @@
     font-display: swap
 }
 body {
-    background-color: none;
+    background-color: "";
 }
 :root {
     --txtClr: #333;
