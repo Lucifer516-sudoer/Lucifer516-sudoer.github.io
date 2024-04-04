@@ -1,4 +1,4 @@
-<html
+<!-- <html
     style="--txtClr: hsl(0, 0%, 90%); --bgClr: hsla(214, 20%, 10%, 100%); --bg: linear-gradient(to right, hsl(214, 50%, 10%) 0%, hsl(214, 20%, 9%) 20%, hsl(214, 20%, 9%) 50%, hsl(214, 20%, 9%) 80%, hsl(214, 50%, 10%) 100%); --a0Clr: hsl(220, 50%, 24%); --a1Clr: hsl(220, 65%, 26%); --a2Clr: hsl(220, 50%, 30%); --a3Clr: hsl(50, 90%, 85%); --a4Clr: hsl(50, 100%, 96%); --b0Clr: hsl(210, 80%, 10%); --b1Clr: hsl(210, 80%, 15%); --b2Clr: hsl(210, 100%, 30%); --b3Clr: hsl(214, 100%, 84%); --b4Clr: hsl(214, 100%, 94%); --o1Clr: hsl(50, 100%, 60%); --r1Clr: hsl(0, 100%, 65%); --hdrImg: url(images/hdr/hdr-main-dark.svg); --hdrAdvImg: url(images/hdr/hdr-adv-dark.svg); --h1Shadow1: 2px 2px 2px hsl(214, 10%, 19%), -2px -2px 2px hsl(214, 10%, 19%), 2px -2px 2px hsl(214, 10%, 19%), -2px 2px 2px hsl(214, 10%, 19%); --h1Shadow: 1px 2px 5px hsl(220, 90%, 20%), 0px 0px 0 hsl(214, 100%, 100%);">
 
 <head>
@@ -80,4 +80,38 @@
     <!-- <div><strong>Recreated by Harish.V</strong></div> -->
 </body>
 
-</html>
+</html> -->
+
+<code>
+    # pretty-picture.py
+import turtle
+
+tess = turtle.Turtle()
+wn = turtle.Screen()
+
+tess.speed(10)
+tess.pensize(2)
+tess.color('blue')
+wn.bgcolor('lightgreen')
+
+def drawSquare(t, sz):
+    for i in range(4):
+        t.fd(sz)
+        t.left(90)
+
+def drawGrid(t, sz):
+    for i in range(4):
+        drawSquare(t, sz)
+        t.left(90)
+
+def main():
+    for i in range(20):
+        drawGrid(tess, 100)
+        tess.left(6)
+        drawGrid(tess, 50)
+
+
+tess.speed(0)
+main()
+
+</code>
