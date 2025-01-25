@@ -24,3 +24,4 @@ echo Ollama with Gemma2:2B model is running.
 
 pause
 ```
+765kULENRrlrYlnX5MjZW5Bw4LzuAimE
